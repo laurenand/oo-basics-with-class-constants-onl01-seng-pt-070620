@@ -5,7 +5,9 @@ class Shoe
   BRANDS=[]
   def initialize(brand)
     @brand = brand
-    BRANDS << brand
+    if brand is in BRANDS
+      BRANDS << brand
+    else 
   end
   def cobble
     self.condition = "new"
