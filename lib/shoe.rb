@@ -9,7 +9,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
-    binding.pry
+    
   end
 
   def cobble
@@ -19,5 +19,5 @@ class Shoe
   
   def brands
     BRANDS.pop
-
+binding.pry
 end
