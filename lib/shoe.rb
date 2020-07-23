@@ -19,5 +19,6 @@ class Shoe
   
   def brands
     BRANDS.pop
-binding.pry
+    binding.pry
+  end
 end
